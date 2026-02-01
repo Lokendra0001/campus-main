@@ -1,7 +1,7 @@
 const express = require('express');
 const upload = require('../middlewares/upload');
-const { createLostItem } = require('../controllers/lost-controller');
-const { createFoundItem } = require('../controllers/found-controller');
+const { createLostItem } = require('../controllers/lost.controller');
+const { createFoundItem } = require('../controllers/found.controller');
 
 const router = express.Router();
 
